@@ -1,0 +1,110 @@
+@media (max-width: 767px) {
+  .facts {
+    flex-direction: column-reverse;
+  }
+  .facts-left,
+  .facts-right, {
+    width: auto;
+  }
+}
+
+body {
+  background-color: #FFFFCC;
+  font-family: Lato, sans-serif;
+}
+
+header {
+  text-align: center;
+  background: url("http://www.wku.edu/sll/images/elvis-banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding-top: 10px;
+}
+
+hr {
+   border: 1px solid #c0c0c0;  
+}
+
+.topbar {
+  display: flex;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#image {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#image img {
+  border: 8px solid #cc9900;
+  border-radius: 5%;
+  width: 70%;
+  height: 600px;
+}
+
+main {
+  background-color: #991f00;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  border-radius: 5%;
+  color: #ccc;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main #image-caption {
+  text-align: center;
+  font-style: italic;
+}
+
+#bio {
+  margin: 25px 5%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#contributions {
+  text-align: center;
+}
+
+.facts {
+  display: flex;
+}
+
+.facts-left {
+  width: 50%;
+  float: left;
+  margin-left: 40px;
+}
+
+.facts-right {
+  width: 50%;
+  float: right;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.facts article li {
+  padding-top: 8px;
+}
+
+#bottombanner img {
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  clear: both;
+}
+
+footer p {
+  text-align: center;
+  font-size: .9em;
+}
